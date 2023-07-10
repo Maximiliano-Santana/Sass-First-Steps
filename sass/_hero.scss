@@ -1,0 +1,10 @@
+@use 'mixinsfunc';
+.hero{
+    min-height: 100vh;
+
+    &__container{
+        height: calc(100vh - 70px);
+        background-color: gray;
+        @include mixinsfunc.crear-flexbox(center);
+    }
+}

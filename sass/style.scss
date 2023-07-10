@@ -1,0 +1,14 @@
+@use 'navbar';
+@use 'reset';
+@use 'vars';
+// @use 'animation';
+@use 'hero';
+
+h2 {
+    font-size: 50px;
+}
+
+p{
+    color: vars.$redLight;
+}
+
